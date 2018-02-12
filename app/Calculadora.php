@@ -15,4 +15,8 @@ class Calculadora
         public static function suma($valor1, $valor2){
             return $valor1+$valor2;
         }
+
+        public static function resta($valor1, $valor2) {
+            return $valor1-$valor2;
+        }
 }

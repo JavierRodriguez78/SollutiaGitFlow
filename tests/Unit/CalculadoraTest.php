@@ -18,9 +18,15 @@ class CalculadoraTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
     public function testSuma(){
         $resultado = Calculadora::suma(5,4);
-        $this->assertEquals(8,$resultado);
+        $this->assertEquals(9,$resultado);
+    }
+
+    public function testResta() {
+        $resultado = Calculadora::resta(3,2);
+        $this->assertEquals(1,$resultado);
     }
 
 }
